@@ -1,0 +1,82 @@
+body {
+  justify-content: center;
+  display: flex;
+  padding-top: 1rem;
+  background-repeat: no-repeat;
+  background-color: #1e1e1e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+li input:checked + label {
+  text-decoration: line-through;
+  color: #a2d4fb;
+}
+
+label {
+  margin-left: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  color: #a2d4fb;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  color: white;
+  width: 17rem;
+  background-color: #131313;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.768);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.768);
+  border-style: none;
+  cursor: pointer;
+  height: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+button:hover {
+  background-color: #a2d4fb;
+  transition: 0.4s;
+}
+
+.barra input {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.768);
+  border-style: none;
+  height: 1.5rem;
+}
+
+.icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  position: absolute;
+  margin-left: 40rem;
+  color: white;
+  cursor: pointer;
+}

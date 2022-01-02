@@ -1,0 +1,159 @@
+/* ---------- LAYOUT ---------- */
+/* The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+/* Colors 
+--soft-blue: hsl(215, 51%, 70%)
+--cyan: hsl(178, 100%, 50%)
+
+--main-bg: hsl(217, 54%, 11%)
+--card-bg: hsl(216, 50%, 16%)
+--line: hsl(215, 32%, 27%)
+--white: hsl(0, 0%, 100%)
+
+/* Typography 
+- Font size (paragraph): 18px
+
+- font-family: 'Outfit', sans-serif;
+- Weights: 300, 400, 600
+
+/* ------------------------------------------------------------ */
+/* {
+  border: 1px solid blue;
+}*/
+
+body {
+  background: hsl(217, 54%, 11%);
+}
+
+img {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.view-box {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0%;
+  border-radius: 1rem;
+}
+
+.view {
+  padding: 7.5rem;
+  width: 5rem;
+  position: absolute;
+}
+
+.view-box:hover {
+  opacity: 50%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 2rem;
+  border: 1px solid hsl(178, 100%, 50%);
+}
+
+.limite {
+  max-width: 20rem;
+}
+
+.card {
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1rem;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.261);
+}
+
+h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.clock {
+  width: 1.3rem;
+  position: absolute;
+  margin-left: 13.8rem;
+  margin-top: 0.93rem;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  margin-left: 1.3rem;
+}
+
+.ethereum {
+  width: 0.8rem;
+  position: absolute;
+  margin-top: 0.9rem;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.inline {
+  display: inline-flex;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.footer {
+  display: inline-flex;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+.footer p {
+  margin-left: 3.3rem;
+}
+
+.avatar {
+  position: absolute;
+  margin-top: 0.54rem;
+}
+
+.linha {
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer spam:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.footer spam {
+  color: hsl(0, 0%, 100%);
+  transition: 0.4s;
+}

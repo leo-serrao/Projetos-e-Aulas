@@ -1,0 +1,31 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+#currentNumber {
+  color: black;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  margin-left: -1rem;
+}
+
+button {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+
+.contador h1 {
+  margin-top: 0.4rem;
+}

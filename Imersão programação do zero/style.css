@@ -1,0 +1,302 @@
+/* {
+  border: 1px solid blue;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(0, 0, 1);
+  padding: 2rem 4rem;
+  color: white;
+}
+
+.conteudo-header {
+  margin-left: -1rem;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: flex;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+main {
+  color: white;
+  padding: 8rem 3rem;
+  display: flex;
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 65, 1) 50%,
+    rgba(67, 65, 136, 1) 100%
+  );
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0%, 50%;
+  }
+
+  50% {
+    background-position: 100%, 50%;
+  }
+
+  100% {
+    background-position: 0%, 50%;
+  }
+}
+
+footer {
+  background: rgb(0, 0, 1);
+  color: white;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  font-size: 1.26rem;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.coluna-menor spam {
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  margin: 1.5px;
+}
+
+.subtitulo-lista {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+}
+
+h1 spam {
+  font-weight: bold;
+}
+
+/* ----------------- AVATAR ----------------*/
+
+.fotoperfil {
+  width: 10.25rem;
+  height: 12.85rem;
+  margin-top: 1.5rem;
+  margin-left: -0.1rem;
+  border-radius: 5%;
+  position: absolute;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: -300%;
+  }
+
+  to {
+    margin-top: 2%;
+  }
+}
+.RGB {
+  width: 10.25rem;
+  height: 12.85rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+  border-radius: 5%;
+  position: absolute;
+  animation-duration: 3s;
+  animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+  from {
+    margin-top: -300%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+#avatar {
+  margin-top: 1rem;
+}
+/* ----------------- AVATAR ----------------*/
+
+.linha {
+  width: 5.31rem;
+  border-top: 2px solid;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 15rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.coluna-menor img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  position: absolute;
+}
+
+.item-coluna-menor {
+  display: inline-block;
+  margin-left: 2.4rem;
+}
+
+.item {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.formacao {
+  margin-top: 1.5rem;
+}
+
+.coluna-menor {
+  max-width: 11.5rem;
+  background-color: rgba(255, 255, 255, 0.124);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.coluna-maior {
+  margin-left: 3.4rem;
+  background-color: rgba(255, 255, 255, 0.124);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.titulo-habilidades,
+.titulo-projetos {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.885);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 13rem;
+  margin-left: 1rem;
+  margin-right: 3.4rem;
+  margin-bottom: 3.4rem;
+  color: #434188;
+}
+
+.item-habilidade {
+  margin-bottom: 1.5rem;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra-1,
+.barra-2,
+.barra-3,
+.barra-4,
+.barra-5,
+.barra-6 {
+  width: 20%;
+  height: 0.3rem;
+  background-color: #434188;
+  margin-top: -0.6rem;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.cards {
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+.card img {
+  max-width: 13rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0rem;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1e3c72 0%,
+    #2a5298 51%,
+    #1e3c72 100%
+  );
+}
+.btn-grad {
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  padding: 10px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  border-style: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
