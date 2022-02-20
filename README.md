@@ -1,2 +1,2 @@
-# Projetos e Aulas 🧑‍🎓
-Projetos e Atividades feitos por mim durante meu aprendizado em promagramação
+# Projects and Classes 🧑‍🎓
+Projects and classes developed by me during my programming learning
